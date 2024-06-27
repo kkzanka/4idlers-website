@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #141A26;
+    color: #FFFFFF;
+}
+
+.inicializacao{
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    margin: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{
+    font-weight: bold;
+}
+
+.destaque-titulo{
+    color: #0056a1;
+}
+
+.img-logo{
+    width: 650px;
+    height: 650px;
+    border-radius: 7%;
+}
+
+.inicializacao__conteudo{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.inicializacao__conteudo__titulo{
+    font-size: 50px;
+    font-style: italic;
+}
+
+.inicializacao__conteudo__paragrafo{
+    font-size: 20px;
+    font-style: normal;
+}
+
+.inicializacao__conteudo__botao__insta{
+    background-color: #0056a1;
+    border-radius: 8px;
+    text-align: center;
+    width: 280px;
+    padding: 10.5px 8px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
